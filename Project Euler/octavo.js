@@ -6,7 +6,7 @@ class Producto {
     LargoP(){
         let max = 0;
         for (let i = 0; i < this.numeros.length - 12; i++) {
-        let part = this.numeros.substr(i, 13);
+        let part = this.numeros.substring(i, 13);
         let resMultiplicacion = 1;
         for (let n of part) {
             resMultiplicacion *= +n;
